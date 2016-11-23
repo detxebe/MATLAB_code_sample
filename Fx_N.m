@@ -1,6 +1,6 @@
 function [NPV, NPVs]= Fx_N(x0_N, ro, cwp, cwi, d, NIs, NPs, Nt, T, dt, xd, xu);
 %
-%      [NPV, NPVs] = function Fx_(x0_N, ro, cwp, cwi, d, NIs, NPs, Nt, T, dt, xd, xu);
+%      [NPV, NPVs] = function Fx_N(x0_N, ro, cwp, cwi, d, NIs, NPs, Nt, T, dt, xd, xu);
 %
 % Determines discounted NPV (total and as a function of time) for the
 % reservoir RES1 (line drive with 4 injectors and 4 producers) for
