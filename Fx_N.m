@@ -3,8 +3,8 @@ function [NPV, NPVs]= Fx_N(x0_N, ro, cwp, cwi, d, NIs, NPs, Nt, T, dt, xd, xu);
 %      [NPV, NPVs] = function Fx_N(x0_N, ro, cwp, cwi, d, NIs, NPs, Nt, T, dt, xd, xu);
 %
 % Determines discounted NPV (total and as a function of time) for the
-% reservoir RES1 (line drive with 4 injectors and 4 producers) for
-% production time frame of 3000 days and BHP controls given by x0.
+% reservoir RES1 (line drive with NIs injectors and NPs producers) for
+% production time frame of T days and BHP controls given by x0_N.
 %
 % x0_N ..... vector of normalized [0,1] Nt x (NIs + NPs) well controls; 
 %            the order is first injectors for first control interval, then 
